@@ -1,0 +1,89 @@
+{
+  "name": "rust-tauri-nextjs-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "keywords": [
+    "Tauri",
+    "Template",
+    "Rust",
+    "React",
+    "NextJS",
+    "Typescript"
+  ],
+  "description": "Tauri with NextJS preset template",
+  "author": "Clover You <cloveryou02@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clover-you/rust-tauri-nextjs-template.git"
+  },
+  "homepage": "https://github.com/clover-you/rust-tauri-nextjs-template#readme",
+  "bugs": {
+    "url": "https://github.com/clover-you/rust-tauri-nextjs-template/issues"
+  },
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "fix": "eslint --fix",
+    "tauri": "tauri",
+    "preinstall": "npx only-allow pnpm",
+    "test": "vitest",
+    "prepare": "husky",
+    "up": "pnpm update --interactive --recursive --latest"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "dependencies": {
+    "@iconify-json/carbon": "^1.2.7",
+    "@iconify-json/f7": "^1.2.2",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-popover": "^1.1.6",
+    "@radix-ui/react-scroll-area": "^1.2.3",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tauri-apps/api": "2.2.0",
+    "@tauri-apps/plugin-shell": "2.2.0",
+    "allotment": "^1.20.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "husky": "^9.1.7",
+    "jotai": "^2.12.1",
+    "lucide-react": "^0.475.0",
+    "next": "15.1.7",
+    "next-themes": "^0.4.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-resizable-panels": "2.1.7",
+    "react-split-pane": "^0.1.92",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.6",
+    "@eslint/js": "^9.20.0",
+    "@iconify/tailwind": "^1.2.0",
+    "@next/swc-darwin-x64": "15.1.7",
+    "@tailwindcss/postcss": "^4.0.7",
+    "@tauri-apps/cli": "2.2.7",
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "babel-plugin-react-compiler": "19.0.0-beta-63e3235-20250105",
+    "eslint": "^9.20.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-compiler": "19.0.0-beta-63e3235-20250105",
+    "globals": "^15.15.0",
+    "lint-staged": "^15.4.3",
+    "pnpm": "^10.4.1",
+    "postcss": "^8.5.3",
+    "react-compiler-healthcheck": "19.0.0-beta-63e3235-20250105",
+    "tailwindcss": "^4.0.7",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1",
+    "vitest": "^3.0.6"
+  }
+}

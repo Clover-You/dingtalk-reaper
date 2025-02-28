@@ -1,0 +1,37 @@
+{
+  "productName": "rust-tauri-nextjs-template",
+  "version": "0.0.0",
+  "identifier": "top.ctong.dev.rust-tauri-nextjs-template",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:3000",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../out"
+  },
+  "app": {
+    "windows": [
+      {
+        "width": 600,
+        "hiddenTitle": true,
+        "titleBarStyle": "Overlay",
+        "height": 400,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {}
+}

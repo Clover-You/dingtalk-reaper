@@ -1,5 +1,5 @@
 [package]
-name = "rust-tauri-nextjs-template"
+name = "dingtalk-reaper"
 version = "0.1.0"
 description = "A Tauri App template with NextJS"
 authors = ["Clover You"]
@@ -14,14 +14,14 @@ codegen-units = 1
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "rust_tauri_nextjs_template_lib"
+name = "dingtalk_reaper_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
-tauri-build = { version = "2.0.5", features = [] }
+tauri-build = { version = "2.0.6", features = [] }
 
 [dependencies]
-tauri = { version = "2.2.5", features = [] }
+tauri = { version = "2.3.0", features = [] }
 tauri-plugin-shell = "2.2.0"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

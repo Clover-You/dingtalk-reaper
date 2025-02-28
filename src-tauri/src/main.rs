@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-  rust_tauri_nextjs_template_lib::run()
+  dingtalk_reaper_lib::run()
 }
